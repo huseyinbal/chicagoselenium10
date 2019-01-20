@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke tests" duration-ms="21732" started-at="2019-01-12T21:54:30Z" finished-at="2019-01-12T21:54:51Z">
+    <groups>
+    </groups>
+    <test name="smoke tests" duration-ms="21732" started-at="2019-01-12T21:54:30Z" finished-at="2019-01-12T21:54:51Z">
+      <class name="PageObjectModel.OrangeAdmin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:PageObjectModel.OrangeAdmin@36f6e879]" name="setup" is-config="true" duration-ms="267" started-at="2019-01-12T21:54:42Z" finished-at="2019-01-12T21:54:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:PageObjectModel.OrangeAdmin@36f6e879]" name="startTest" is-config="true" duration-ms="3651" started-at="2019-01-12T21:54:42Z" finished-at="2019-01-12T21:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:PageObjectModel.OrangeAdmin@36f6e879]" name="negativeLogin" duration-ms="4442" started-at="2019-01-12T21:54:46Z" finished-at="2019-01-12T21:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogin -->
+      </class> <!-- PageObjectModel.OrangeAdmin -->
+      <class name="PageObjectModel.OrangeTest">
+        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:PageObjectModel.OrangeTest@5a61f5df]" name="negativeLogin" duration-ms="878" started-at="2019-01-12T21:54:51Z" finished-at="2019-01-12T21:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogin -->
+      </class> <!-- PageObjectModel.OrangeTest -->
+      <class name="Recap.Tabs2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Recap.Tabs2@54a097cc]" name="setup" is-config="true" duration-ms="1517" started-at="2019-01-12T21:54:30Z" finished-at="2019-01-12T21:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:Recap.Tabs2@54a097cc]" name="startTest" is-config="true" duration-ms="4012" started-at="2019-01-12T21:54:31Z" finished-at="2019-01-12T21:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="multipleTabs()[pri:0, instance:Recap.Tabs2@54a097cc]" name="multipleTabs" duration-ms="6937" started-at="2019-01-12T21:54:35Z" finished-at="2019-01-12T21:54:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleTabs -->
+      </class> <!-- Recap.Tabs2 -->
+    </test> <!-- smoke tests -->
+  </suite> <!-- Smoke tests -->
+</testng-results>

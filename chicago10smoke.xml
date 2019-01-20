@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke tests" verbose="2">
+
+    <test name="smoke tests">
+        <packages>
+    <package name="PageObjectModel"/>
+
+        </packages>
+        <!--//whatever you include inside the xml runner it is triggered
+        //if you don't have any priority testng will run according to alphabet order
+        if you want to make smoke test you create this kind xml file and include packages or classes you want to run-->
+
+        <classes>
+            <class name="Recap.Tabs2">
+            <methods>
+                <exclude name="toDo"/>
+
+            </methods>
+
+            </class>
+
+
+
+        </classes>
+    </test>
+
+
+</suite>
+
+        <!-- maven surefire plugin: this plugin controls the flow of our tests in the project.
+        If we dont -->

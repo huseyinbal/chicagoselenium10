@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression" verbose="2">
+
+<test name="regression tests">
+    <packages>
+        <package name=".*"/>
+    </packages>
+
+
+</test>
+
+
+</suite>
